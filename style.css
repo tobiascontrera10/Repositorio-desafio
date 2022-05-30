@@ -63,7 +63,6 @@ body{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     color: white;
-    font-family: sans-serif;
     margin-top: 3cm;
     margin-left: 7cm;
     padding: 1cm;
@@ -76,7 +75,9 @@ body{
 .conteinerB h2{
     text-align: center;
     font-size: 30px;
-    background-color: black;
+    background-color: rgb(28, 61, 38);
+    border-top: 4px solid orangered;
+    border-bottom: 4px solid orangered;
 
 }
 
@@ -97,8 +98,7 @@ body{
     text-align: center;
     font-size: 30px;
     background-color: orangered;
-    color: black;
-    font-family: sans-serif;
+    color: white;
     margin: -20px ;
     margin-bottom: -10px ;
 }    
@@ -106,7 +106,7 @@ body{
     font-size: 25px;
     color: orangered;
     text-align: center;
-    border-top: 4px dashed white;
+    border-top: 4px dashed rgb(28, 61, 38);
 }
 .contenedorC .cervezas dd{
     font-family: sans-serif;
@@ -128,8 +128,7 @@ body{
     text-align: center;
     font-size: 30px;
     background-color: orangered;
-    color: black;
-    font-family: sans-serif;
+    color: white;
     margin: -20px ;
     margin-bottom: -10px ;
 }
@@ -137,7 +136,7 @@ body{
     font-size: 25px;
     color: orangered;
     text-align: center;
-    border-top: 4px dashed white;
+    border-top: 4px dashed rgb(28, 61, 38);
 }
 .contenedorC .comidas dd{
     font-family: sans-serif;
@@ -147,9 +146,9 @@ body{
 .tituloC{
     text-align: center;
     font-size: 40px;
-    background-color: orangered;
-    color: black;
+    color: white;
+    border-top: 5px solid orangered ;
+    border-bottom: 5px solid orangered ;
     margin: 20px;
-    font-family: sans-serif;
     margin-bottom: -10px;
 }
